@@ -16,6 +16,7 @@
     - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -57,7 +58,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Relational Database]**
+- Relational database with queries.
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
@@ -80,6 +81,14 @@ This repository includes files with plain SQL that can be used to recreate a dat
 - GitHub: [@blueberry1312](https://github.com/blueberry1312)
 - Twitter: [@nestorsitooo](https://twitter.com/nestorsitooo)
 - LinkedIn: [Nestor Oro](https://www.linkedin.com/in/nestor-oro/)
+
+<p align="right"><a href="#readme-top">Back to top</a></p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- Add more columns.
+- Add more tables.
+- Add more queries.
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
