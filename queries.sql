@@ -65,7 +65,6 @@ SELECT species, AVG(escape_attempts) from animals
 WHERE date_of_birth BETWEEN '1990/01/01' AND '2000/12/31'
 GROUP BY species;
 
-
 -- Questions 
 
 -- First
