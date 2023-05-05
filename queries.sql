@@ -182,7 +182,7 @@ WHERE NOT EXISTS (
 SELECT COUNT(s.name) as Count, s.name as Specie
 FROM visits vis 
 JOIN vets vet ON vis.vet_id = vet.id
-JOIN animals an ON vis.animal_id = animal.id
+JOIN animals animal ON vis.animal_id = animal.id
 JOIN species s ON animal.species_id = s.id
 WHERE vet.name = 'Maisy Smith'
 GROUP BY s.name;
