@@ -193,3 +193,5 @@ GROUP BY s.name;
 explain analyze SELECT visits_counter FROM animals where id = 4;
 
 explain analyze SELECT * FROM visits where vet_id = 2;
+
+explain analyze SELECT * FROM owners where email = 'owner_18327@mail.com';
