@@ -12,7 +12,7 @@ CREATE TABLE animals (
 );
 
 ALTER TABLE public.animals
-ADD species VARCHAR(100):
+ADD species VARCHAR(100);
 
 CREATE TABLE owners (
     id serial PRIMARY KEY NOT NULL,
@@ -69,3 +69,15 @@ CREATE TABLE visits (
 	animal_id INT REFERENCES animals(id),
 	date_of_visit DATE NOT NULL
 );
+
+--------------------------------------------------------
+
+ALTER TABLE animals ADD COLUMN visits_counter INT;
+
+CREATE INDEX vet_index ON visits(vet_id);
+
+CREATE INDEX email_index ON owners(email);
+
+----------- other solution for the first performance (by the reviewer)
+
+CREATE INDEX animal_index ON animals(id);
