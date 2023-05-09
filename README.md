@@ -28,6 +28,8 @@
 
 **Vet Clinic Database** is database created for a vet clinic.
 
+![diagram img](./Diagram.png)
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
