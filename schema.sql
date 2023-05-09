@@ -73,3 +73,5 @@ CREATE TABLE visits (
 --------------------------------------------------------
 
 ALTER TABLE animals ADD COLUMN visits_counter INT;
+
+ALTER TABLE vets ADD COLUMN vets_counter INT;
