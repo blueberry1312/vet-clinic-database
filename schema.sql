@@ -12,7 +12,7 @@ CREATE TABLE animals (
 );
 
 ALTER TABLE public.animals
-ADD species VARCHAR(100):
+ADD species VARCHAR(100);
 
 CREATE TABLE owners (
     id serial PRIMARY KEY NOT NULL,
