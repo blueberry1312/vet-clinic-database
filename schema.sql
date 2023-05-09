@@ -69,3 +69,7 @@ CREATE TABLE visits (
 	animal_id INT REFERENCES animals(id),
 	date_of_visit DATE NOT NULL
 );
+
+--------------------------------------------------------
+
+ALTER TABLE animals ADD COLUMN visits_counter INT;

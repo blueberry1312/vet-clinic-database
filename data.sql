@@ -78,3 +78,12 @@ VALUES
 (2, 9, '2020/08/03'),
 (3, 10, '2020/05/24'),
 (1, 10, '2021/01/11');
+
+--------------------------------------------------
+
+UPDATE animals 
+SET visits_counter = (
+    SELECT COUNT(visits.animal_id) 
+    FROM visits 
+    WHERE visits.animal_id = animals.id
+);
