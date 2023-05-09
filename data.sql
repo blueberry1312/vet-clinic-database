@@ -87,10 +87,3 @@ SET visits_counter = (
     FROM visits 
     WHERE visits.animal_id = animals.id
 );
-
-UPDATE vets 
-SET vets_counter = (
-    SELECT COUNT(visits.vet_id) 
-    FROM visits 
-    WHERE visits.vet_id = vets.id
-);

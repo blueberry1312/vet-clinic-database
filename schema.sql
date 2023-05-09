@@ -74,4 +74,4 @@ CREATE TABLE visits (
 
 ALTER TABLE animals ADD COLUMN visits_counter INT;
 
-ALTER TABLE vets ADD COLUMN vets_counter INT;
+CREATE INDEX vet_index ON visits(vet_id);

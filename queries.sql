@@ -192,4 +192,4 @@ GROUP BY s.name;
 
 explain analyze SELECT visits_counter FROM animals where id = 4;
 
-explain analyze SELECT vets_counter FROM vets where id = 2;
+explain analyze SELECT * FROM visits where vet_id = 2;
