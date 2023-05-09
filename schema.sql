@@ -77,3 +77,7 @@ ALTER TABLE animals ADD COLUMN visits_counter INT;
 CREATE INDEX vet_index ON visits(vet_id);
 
 CREATE INDEX email_index ON owners(email);
+
+----------- other solution for the first performance (by the reviewer)
+
+CREATE INDEX animal_index ON animals(id);
